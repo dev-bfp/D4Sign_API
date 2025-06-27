@@ -6,7 +6,6 @@ from pprint import pp as pp
 from datetime import datetime
 from oauth2client.service_account import ServiceAccountCredentials # LIB DE AUTENTICAÇÃO DA GOOGLE
 from Tokens import *
-from IXC_API.IXC_main import IXC
 
 class d4sign():
     def make_document_by_template(dd, id_safe=id_safe, endpoint_token=endpoint_token, url_sign=url_sign):
